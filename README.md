@@ -2,6 +2,9 @@
 
 This is a small example of a problem I came across when trying to use STOMP over WebSockets with ActiveMQ 6.x.
 
+Note, I found a solution, which is in:
+https://github.com/ruedigergad/activemq_ws_stomp_test/commit/53e39107a9bf2d18f0832802318ceacb73e6a7c7
+
 # How to Run
 
 ```
@@ -9,6 +12,9 @@ mvn compile exec:java -Dexec.mainClass="com.ruedigergad.activemq_ws_stomp_test.A
 ```
 
 # Analysis
+
+The solution was based on the second idea and is committed via:
+https://github.com/ruedigergad/activemq_ws_stomp_test/commit/53e39107a9bf2d18f0832802318ceacb73e6a7c7
 
 ## First Idea
 
